@@ -1,6 +1,7 @@
-## Interface: 11400
+## Interface-Classic: 11402
+## Interface-BCC: 20504
 ## Version: v2.3.0
-## Title: KethoCombatLog
+## Title: KethoCombatLog Classic
 ## Notes: Ketho's Combat Log
 ## Author: Ketho @ EU-Boulderfist
 ## SavedVariables: KethoCombatLogDB
