@@ -660,7 +660,7 @@ function KCL:COMBAT_LOG_EVENT_UNFILTERED(event, ...)
 	------------
 	
 	elseif subevent == "SPELL_AURA_APPLIED" then
-		if S.Taunt[spellID] and destType == "Creature" and IsOption("Taunt") then
+		if S.Taunt[spellName] and destType == "Creature" and IsOption("Taunt") then
 			-- guardian is also a npc
 			if bit_band(destFlags, COMBATLOG_OBJECT_TYPE_GUARDIAN) > 0 then return end
 			SetMessage("Taunt")

@@ -166,22 +166,22 @@ S.Spell = {
 
 
 S.Taunt = {
-	[355] = true, -- Warrior: [Taunt]
-	[6795] = true, -- Druid: [Growl]
-	[20736] = true, -- Hunter: [Distracting Shot]
-	[116189] = true, -- Monk: [Provoke]; 115546
-	[185245] = true, -- Demon Hunter: [Torment]
+	[GetSpellInfo(355)] = true, -- Warrior: [Taunt]
+	[GetSpellInfo(6795)] = true, -- Druid: [Growl]
+	[GetSpellInfo(20736)] = true, -- Hunter: [Distracting Shot]
+	-- [GetSpellInfo(116189)] = true, -- Monk: [Provoke]; 115546
+	-- [GetSpellInfo(185245)] = true, -- Demon Hunter: [Torment]
 -- Death Knight
-	[49560] = true, -- [Death Grip]
-	[51399] = true, -- [Death Grip] (melee range)
-	[56222] = true, -- [Dark Command]
+	-- [GetSpellInfo(49560)] = true, -- [Death Grip]
+	-- [GetSpellInfo(51399)] = true, -- [Death Grip] (melee range)
+	-- [GetSpellInfo(56222)] = true, -- [Dark Command]
 -- Paladin
-	[31790] = true, -- [Righteous Defense]
-	[62124] = true, -- [Hand of Reckoning]
+	-- [GetSpellInfo(31790)] = true, -- [Righteous Defense]
+	-- [GetSpellInfo(62124)] = true, -- [Hand of Reckoning]
 -- Pet
-	[2649] = true, -- Hunter: Pet: [Growl]
-	[17735] = true, -- Warlock: Voidwalker: [Suffering]
-	[36213] = true, -- Shaman: Greater Earth Elemental: [Angered Earth]
+	[GetSpellInfo(2649)] = true, -- Hunter: Pet: [Growl]
+	-- [GetSpellInfo(17735)] = true, -- Warlock: Voidwalker: [Suffering]
+	-- [GetSpellInfo(36213)] = true, -- Shaman: Greater Earth Elemental: [Angered Earth]
 }
 
 -- actually used only for jukes
